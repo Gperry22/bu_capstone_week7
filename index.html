@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <p class="title">
+                Comment Hero
+            </p>
+            <p class="subtitle">
+                Keep track of your classmates comments
+            </p>
+        </div>
+    </section>
+    <section class="section">
+
+
+        <div class="container">
+            <div class="field">
+                <div class="control">
+                    <textarea id="comment" class="textarea is-large" placeholder="Add your Comment"></textarea>
+                </div>
+            </div>
+            <input id="userName" class="input is-large" type="text" placeholder="Add your name">
+
+            <div class="columns">
+                <div class="column mt-4 has-text-centered">
+                    <button id="submit" class="button is-medium is-info">Submit</button>
+                </div>
+            </div>
+
+            <div id='commentsDiv'>
+
+            </div>
+
+
+        </div>
+    </section>
+    <script src="./js.js"></script>
+</body>
+
+</html>
